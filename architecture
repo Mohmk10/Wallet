@@ -1,0 +1,105 @@
+lib
+├── app
+│   ├── modules
+│   │   ├── bill_payment
+│   │   │   ├── bindings
+│   │   │   │   └── bill_payment_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── bill_payment_controller.dart
+│   │   │   └── views
+│   │   │       └── bill_payment_view.dart
+│   │   ├── customer_support
+│   │   │   ├── bindings
+│   │   │   │   └── customer_support_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── customer_support_controller.dart
+│   │   │   └── views
+│   │   │       └── customer_support_view.dart
+│   │   ├── dashboard
+│   │   │   ├── bindings
+│   │   │   │   └── dashboard_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── dashboard_controller.dart
+│   │   │   └── views
+│   │   │       └── dashboard_view.dart
+│   │   ├── home
+│   │   │   ├── bindings
+│   │   │   │   └── home_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── home_controller.dart
+│   │   │   └── views
+│   │   │       └── home_view.dart
+│   │   ├── login
+│   │   │   ├── bindings
+│   │   │   │   └── login_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── login_controller.dart
+│   │   │   └── views
+│   │   │       └── login_view.dart
+│   │   ├── money_transfer
+│   │   │   ├── bindings
+│   │   │   │   └── money_transfer_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── money_transfer_controller.dart
+│   │   │   └── views
+│   │   │       └── money_transfer_view.dart
+│   │   ├── settings
+│   │   │   ├── bindings
+│   │   │   │   └── settings_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── settings_controller.dart
+│   │   │   └── views
+│   │   │       └── settings_view.dart
+│   │   ├── sign_up
+│   │   │   ├── bindings
+│   │   │   │   └── sign_up_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── sign_up_controller.dart
+│   │   │   └── views
+│   │   │       └── sign_up_view.dart
+│   │   ├── transaction_history
+│   │   │   ├── bindings
+│   │   │   │   └── transaction_history_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── transaction_history_controller.dart
+│   │   │   └── views
+│   │   │       └── transaction_history_view.dart
+│   │   ├── user_profile
+│   │   │   ├── bindings
+│   │   │   │   └── user_profile_binding.dart
+│   │   │   ├── controllers
+│   │   │   │   └── user_profile_controller.dart
+│   │   │   └── views
+│   │   │       └── user_profile_view.dart
+│   │   └── widgets
+│   │       └── custom_widgets.dart
+│   ├── routes
+│   │   └── app_routes.dart
+│   └── widgets
+│       └── custom_widgets.dart
+├── models
+│   ├── bill_payment_model.dart
+│   ├── customer_support_model.dart
+│   ├── dashboard_model.dart
+│   ├── home_model.dart
+│   ├── login_model.dart
+│   ├── money_transfer_model.dart
+│   ├── settings_model.dart
+│   ├── sign_up_model.dart
+│   ├── transaction_history_model.dart
+│   └── user_profile_model.dart
+├── services
+│   ├── bill_payment_service.dart
+│   ├── customer_support_service.dart
+│   ├── dashboard_service.dart
+│   ├── home_service.dart
+│   ├── login_service.dart
+│   ├── money_transfer_service.dart
+│   ├── settings_service.dart
+│   ├── sign_up_service.dart
+│   ├── transaction_history_service.dart
+│   └── user_profile_service.dart
+└── utils
+    ├── constants.dart
+    ├── helpers.dart
+    ├── strings.dart
